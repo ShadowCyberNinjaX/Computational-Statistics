@@ -17,5 +17,5 @@ variance = ssd / N
 
 
 print("Mean =", mean)
-print("Variance ", variance)
-
+print("Population Variance = ", variance)
+print("Sample Variance = ", ssd/(N-1))
